@@ -4,7 +4,8 @@ using System.Text;
 
 namespace FelineProjecr
 {
-    class IClimb
+    interface IClimb
     {
+        void Climb();
     }
 }
