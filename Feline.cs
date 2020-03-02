@@ -4,32 +4,32 @@ namespace FelineProjecr
 {
     abstract class Feline
     {
-        void Talk()
+        public void Talk()
         {
             Console.WriteLine($"{this.GetType().Name} is talking");
         }
-        
-        void Run()
+
+        public void Run()
         {
             Console.WriteLine($"{this.GetType().Name} is running");
         }
 
-        void Eat()
+        public void Eat()
         {
             Console.WriteLine($"{this.GetType().Name} is eating");
         }
 
-        void Jump()
+        public void Jump()
         {
             Console.WriteLine($"{this.GetType().Name} is jumping");
         }
 
-        void Sleep ()
+        public void Sleep ()
         {
             Console.WriteLine($"{this.GetType().Name} is sleeping");
         }
 
-        void Hunt()
+        public void Hunt()
         {
             Console.WriteLine($"{this.GetType().Name} is hunting");
         }
