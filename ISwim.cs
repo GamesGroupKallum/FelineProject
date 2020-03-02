@@ -4,7 +4,8 @@ using System.Text;
 
 namespace FelineProjecr
 {
-    class ISwim
+    interface ISwim
     {
+        void Swim();
     }
 }
