@@ -1,10 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace FelineProjecr
 {
-    class Cat
+    class Cat : Feline
     {
+        public void Scratch()
+        {
+            Console.WriteLine("scratches");
+        }
+
+        public void Purr()
+        {
+            Console.WriteLine("purr purr purr");
+        }
     }
 }
