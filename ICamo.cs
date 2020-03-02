@@ -6,5 +6,6 @@ namespace FelineProjecr
 {
     interface ICamo
     {
+        void Camo();
     }
 }
