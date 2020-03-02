@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace FelineProjecr
 {
-    class Cheeto
+    class Cheeto : Feline, IClimb
     {
+
     }
 }
