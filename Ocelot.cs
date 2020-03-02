@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FelineProject
+namespace FelineProjecr
 {
     class Ocelot: Feline, IClimb, ISwim
     {
