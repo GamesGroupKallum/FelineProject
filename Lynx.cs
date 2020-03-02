@@ -4,7 +4,8 @@ using System.Text;
 
 namespace FelineProjecr
 {
-    class Lynx
+    class Lynx: Feline, IClimb
     {
+        
     }
 }
